@@ -1,0 +1,355 @@
+.header-container{
+    margin: 52px 200px 0px 200px;
+    /* border: 2px solid red; */
+    border: 2px solid rebeccapurple;
+}
+.nav-section{
+    display: flex;
+     justify-content: space-between; 
+    padding: 10px 20px 10px 20px;
+   
+}
+.logo-section{
+    display: flex;
+    align-items: center;
+}
+.logo-section img{
+    width: 48px;
+    height: 56.008px;
+}
+.logo-section h3 {
+    color: #FF5400;
+font-family: Mulish;
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.nav-list{
+    display: flex;
+    /* justify-content: center; */
+     list-style-type: none; 
+    gap: 44px;
+    }
+.nav-list li{
+     align-items: center; 
+    padding-top: 30px; 
+    
+}
+ .nav-list a{
+     color:  #424247;
+text-align: center;
+text-decoration: none;
+font-family: Mulish;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; 
+} 
+.banner-section{
+   background-image: url('./Images/Group\ 13\ \(1\)\ \(1\).png');
+    height: 600px; 
+   background-repeat: no-repeat;
+   background-position: center center;
+   text-align: center;
+   width: 100%;
+   justify-content: center;
+}
+.titel-section{
+    padding-top: 250px;
+}
+.titel-section h1{
+    color: #FFF;
+
+font-family: Mulish;
+font-size: 64px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.titel-section p{
+    color: #FFF;
+
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+.banner-btn{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    background: rgba(255, 255, 255, 0.30);
+    height:80px ;
+    margin: 0px 200px 0px 200px;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+.button{
+    background-color: #FFF;
+    width: 174px;
+    height: 52px;
+    border: #FFF;
+    border-radius: 8px;
+}
+dropdown-content{
+    display: block;
+}
+.popular-container{
+    display: flex;
+}
+.popular-text{
+   
+    margin: 100px;
+}
+.black-hadding{
+    color: #131318;
+
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.paragraf{
+    color: rgba(19, 19, 24, 0.70);
+
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+.populer-img{
+    margin: 100px;
+}
+.button-primary{
+    width: 174px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+border: none;
+
+color: #FFF;
+
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.main-container{
+    margin: 52px 200px 0px 200px;
+}
+.choose-text{
+    text-align: center;
+}
+.destinartion-1st-img{
+    display: flex;
+
+    gap: 20px;
+   
+}
+.maldives{
+  width: 50%;
+}
+.maldives img{
+     width: 100%; 
+}
+.destinartion-2nd-img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    justify-content: space-around;
+}
+/* .img-2nd{
+   width:30%;
+}
+.img-2nd img{
+    width: 100px;
+} */
+ .abcd{
+    width: 100%;
+    height: 300px;
+}
+.destinartion-3nd-img{
+    display: flex;
+    justify-content: space-between;
+}
+.bangladesh-pic{
+    width: 40%;
+}
+.bangladesh-img{
+    width: 100%;
+}
+.banderban{
+    width: 59%;
+}
+.banderban-img{
+    width: 100%;
+}
+
+.maldives-text {
+    position: absolute;
+     left: 550px;
+    padding-top: 100px;
+}    
+ 
+
+/* .srilanka {
+    position: absolute;
+     left: 550px;
+    padding-top: 100px;
+} */
+/* .america {
+    position: absolute;
+     left: 550px;
+    padding-top: 100px;
+} */
+/* .kashmir {
+    position: absolute;
+     left: 550px;
+    padding-top: 100px;
+} */
+/* .bangladesh {
+    position: absolute;
+     left: 550px;
+    padding-top: 100px;
+} */
+/* .bandarban {
+    position: absolute;
+     left: 550px;
+    padding-top: 100px;
+} */
+
+.icone{
+   height: 60px;
+}
+.first-icone{
+    display: flex;
+    gap: 10px;
+}
+.icone-background{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+
+background: rgba(251, 181, 99, 0.05);
+padding: 30px;
+}
+.icone-background-2nd{
+    border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+
+background: rgba(41, 206, 246, 0.05);
+padding: 30px;
+}
+.secend-icone-background{
+    border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+
+background: rgba(233, 68, 68, 0.05);
+width: 800px;
+margin-left: 300px;
+padding: 30px;
+margin-top: 10px;
+
+
+}
+.card-header{
+    color: #131318;
+
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 599px) {
+    
+    .header-container{
+        margin:0;
+        border: none;
+    }
+    .nav-section{
+        
+        flex-direction: column;
+    }
+    .logo-section{
+        padding-left: 80px;
+        margin-bottom: 0;
+    }
+    .nav-list{
+        gap: 25px;
+        margin-top: -10px;
+    }
+    .banner-btn{
+        margin: 0px;
+        grid-template-columns: repeat(2 ,1fr);
+        gap: 3px;
+        height: 140px;
+    }
+    .titel-section{
+        padding-top: 70px;
+    }
+    .popular-container{
+        flex-direction: column;
+        margin-top: 20px;
+        padding: 30px;
+    }
+    .popular-text{
+        margin: 0px;
+    }
+    .populer-img{
+        margin: 0px;
+        width: 70%;
+        margin-top: 10px;
+       
+    }
+    .populer-img img{
+        width: 145%;
+    }
+    .main-container{
+        margin: 0px;
+    }
+    .destinartion-1st-img{
+        flex-direction: column;
+        
+    }
+    .maldives{
+        
+        width: 100%;
+      }
+      .destinartion-2nd-img{
+        grid-template-columns: repeat(1, 1fr);
+      }
+      .destinartion-3nd-img{
+        flex-direction: column;
+      }
+      .bangladesh-pic{
+        width: 100%;
+    }
+    .banderban{
+        width: 100%;
+    }
+    .first-icone{
+        flex-direction: column;
+    }
+    .secend-icone-background{
+        margin: 0;
+        width: 85%;
+        margin-top: 10px;
+    }
+      
+}     

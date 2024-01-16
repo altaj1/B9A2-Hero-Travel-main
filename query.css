@@ -1,0 +1,21 @@
+@media screen and (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
+    }
+    .nav-list.show {
+        display: flex;
+    }
+    .nav-list li {
+        margin: 10px 0;
+    }
+}    
