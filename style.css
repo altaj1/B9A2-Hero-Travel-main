@@ -267,6 +267,34 @@ margin-top: 10px;
     font-weight: 800;
     line-height: normal;
 }
+.newsletter-section{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 200px 0px 200px;
+}
+.input-secrion{
+    width: 440px;
+height: auto;
+padding: 100px 50px 50px 50px;
+border-radius: 16px;
+border: 1px solid #FF5400;
+margin: 10px;
+}
+.news-img{
+height: 550px;
+}
+.input-firld{
+    border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+width: 393px;
+height: 52px;
+border: none;
+margin: 10px;
+}
+.from{
+    border-top: 1px solid  rgba(19, 19, 24, 0.10);
+    
+}
 
 
 
@@ -351,5 +379,22 @@ margin-top: 10px;
         width: 85%;
         margin-top: 10px;
     }
-      
+    .newsletter-section{
+        flex-direction: column;
+        margin: 0px;
+        margin: 10px;
+    }
+    .input-secrion{
+        margin: 0;
+        width: 90%;
+    }
+    .input-firld{
+        width: 80%;
+        padding: 0px;
+    }
+    .news-img{
+        height: auto;
+        margin-top: 10px;
+        width: 100%;
+        }
 }     
